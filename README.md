@@ -15,6 +15,14 @@
 - CUDA: 11.3
 - cuDNN: 8.1
 
+## Code Structure
+- `envs/`: Vehicular MEC environment and DAG modeling
+- `models/`: GAT/GCN encoders and PPO networks
+- `train/`: GAT pretraining and PPO training scripts
+- `baselines/`: Heuristic and learning-based baselines
+- `evaluate/`: Scripts for reproducing experimental figures
+
+
 
 ## Reproducibility Notes
 - All training procedures are conducted offline.
